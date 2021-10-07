@@ -31,15 +31,15 @@ public:Car(string number, string mark,string color, ){
 	 bool getCreate() {
 		 return this->create;
 	}
-	 void getNumber()
+	 string getNumber()
 	 {
 		 return this->number;
 	 }
-	 void getMark()
+	string getMark()
 	 {
 		 return this->mark;
 	 }
-	 void getColor()
+	string getColor()
 	 {
 		 return this->color;
 	 }

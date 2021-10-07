@@ -5,8 +5,8 @@
 #include <Windows.h>
 class Parking {
 	int x = 0;
-public:Car** cars = new Car[100];//Динамический массив для объектов типа Car
-	  void add(Car **car)
+public:Car* cars = new Car[5];//Динамический массив для объектов типа Car
+	  void add(Car car)
 	  {
 		  string isnomber;
 		  for (int i = 0; i < x; i++) {

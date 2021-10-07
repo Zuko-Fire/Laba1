@@ -8,7 +8,7 @@ class Car {
 	     string mark; //ћарка машины
 	     bool create; //ѕеременна€ отвечающа€ за проверку - создана ли машина
 	     bool IsParking; //ѕеременна€ отвечающа€ за проверку - припаркована ли машина*/
-public:Car(string number,string mark,string color);
+public:Car(string,string,string);
 	  void parking();
 	  void leave();
 	  bool getCreate();
